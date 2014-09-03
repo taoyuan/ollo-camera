@@ -1,0 +1,26 @@
+{
+  "name": "ollo-camera",
+  "version": "0.0.1",
+  "description": "ollo camera driver",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ollomind/ollo-camera"
+  },
+  "keywords": [
+    "camera"
+  ],
+  "author": "ollomind",
+  "license": "MIT",
+  "config": {
+    "host": "stream.ollo.io",
+    "port": 443
+  },
+  "dependencies": {
+    "gm": "^1.16.0",
+    "moment": "^2.6.0",
+    "periodical": "taoyuan/periodical",
+    "request": "^2.35.0",
+    "streamifier": "^0.1.0"
+  }
+}
